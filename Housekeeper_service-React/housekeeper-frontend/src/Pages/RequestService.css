@@ -10,4 +10,9 @@ justify-content: center;
   position: relative;
   top: 136px;
   left: -157px;
+  height: 70px; ;
+background-position: center;
+}
+h2{
+  justify-content: center;
 }
