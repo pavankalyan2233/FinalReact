@@ -1,0 +1,13 @@
+.box1{
+  height: 90vh;
+  background: url("https://images.pexels.com/photos/6197117/pexels-photo-6197117.jpeg");
+background-position: center;
+display: flex;
+justify-content: center;
+
+}
+#emoji{
+  position: relative;
+  top: 136px;
+  left: -157px;
+}

@@ -1,0 +1,100 @@
+ 
+
+  :root {
+    --primary-color: black; /* Material blue */
+    --primary-hover-color: #1565c0; /* Darker blue on hover */
+    --text-color: #424242; /* Dark grey text */
+    --card-bg-color: #f5f5f5; /* Light grey background */
+    --card-border: 1px solid #e0e0e0; /* Lighter border color */
+    --card-radius: 12px; /* Rounded corners */
+    --box-shadow: 0 8px 16px rgba(0, 0, 0, 1); /* Subtle box shadow */
+  }
+
+
+  .student-profile-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: var(--box-shadow);
+    border-radius: var(--card-radius);
+    transition: box-shadow 0.3s ease;
+  }
+
+  .boxstudent{
+    background:url("https://images.pexels.com/photos/6195111/pexels-photo-6195111.jpeg");
+    object-fit: top;
+    background-position: center;
+  }
+
+  .student-profile-container:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  }
+
+  .page-title {
+    color: var(--primary-color);
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  .profile-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: var(--primary-color);
+  }
+
+  input {
+    padding: 14px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  input:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 10px rgba(33, 150, 243, 0.4);
+  }
+
+  .save-button {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+  }
+
+  .save-button:hover {
+    background-color: var(--primary-hover-color);
+  }
+
+  .profile-info {
+    background-color: var(--card-bg-color);
+    border: var(--card-border);
+    padding: 20px;
+    border-radius: var(--card-radius);
+    box-shadow: var(--box-shadow);
+  }
+
+  .profile-info h2 {
+    color: var(--primary-color);
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+
+  .profile-info p {
+    margin: 12px 0;
+    color: var(--text-color);
+  }
+
+  #stupro{
+    text-align: center;
+    /* margin-left: 30px; */
+  }

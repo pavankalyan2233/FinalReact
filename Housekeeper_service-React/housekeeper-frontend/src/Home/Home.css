@@ -1,0 +1,212 @@
+
+/* Main HomePage Starts */
+*{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.Navbar ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+.Navbar li{
+  /* border: solid 1px white; */
+  color: white;
+  /* border-radius: 20px; */
+  padding: 10px 10px 10px 10px;
+  font-weight:800;
+  margin-top: 40px;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.box{
+  background-image: url("https://carpetserv.ancorathemes.com/wp-content/uploads/2017/03/header_bg_main.png");
+  background-repeat: no-repeat;
+background-size: 2600px;
+}
+
+.hero{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+.hero h1{
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  font-size: 100px;
+}
+
+#let{
+  color: white;
+  font-size: 80px;
+}
+
+#house{
+  color: white;
+  font-size: 40px;
+}
+
+#btn1{
+  background-color: #fb7f7b;
+  height: 80px;
+  width: 250px;
+  border-radius: 40px;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.first{
+  display: flex;
+  justify-content:flex-end;
+  align-content:flex-end;
+}
+
+.right #com{
+  background-color: #36d0c4;
+font-weight:600;
+border-radius: 30px;
+color: white;
+text-transform: uppercase;
+font-size: 12px;
+width: 130px;
+padding: 10px;
+height: 60px;
+
+}
+
+.right #res{
+  background-color: #fb7f7f;
+font-weight:600;
+border-radius: 30px;
+color: white;
+text-transform: uppercase;
+font-size: 12px;
+width: 130px;
+padding: 10px;
+height: 60px;
+margin-left: 30px ;
+
+}
+
+.dog{
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-image: url('pexels-tima-miroshnichenko-6197116.jpg');
+  background-size: cover;
+  margin-top: 50px;
+  background-position: bottom;
+}
+
+.dog h1{
+  font-size: 70px;
+  color: white;
+  font-weight: bold;
+  text-align: left;
+}
+
+.dog p{
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+}
+.plans{
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.card-text{
+  margin-top: 0.9em;
+    font-size: 14;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0;
+    color: black;
+
+}
+
+.card-body{
+
+  background-color: #E5F6F5;
+}
+
+
+.order{
+  background-color: #36d0c4;
+  border-radius: 20px;
+  width: 150px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500px;
+}
+
+.footer{
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .f1{
+width: 700px;
+color: white;
+}
+
+.footer .quick{
+width: 300px;
+color: white;
+}
+.footer .service{
+width: 300px;
+color: white;
+}
+.footer .f1 p{
+line-height: 15px;  
+}
+
+.foot{
+  background-color: #1E3633;
+  height: 200px;
+}
+
+.foot .quick h5{
+
+  font-size: 29px;
+  margin-bottom: 30px;
+
+}
+.foot .quick li{
+
+  font-size: 16px;
+  font-weight: lighter;
+ 
+
+}
+.foot .service h5{
+
+  font-size: 29px;
+  margin-bottom: 30px;
+
+}
+.foot .service li{
+
+  font-size: 16px;
+  font-weight: lighter;
+ 
+
+}
+
+
+/* Main HomePage Ends */
+
+

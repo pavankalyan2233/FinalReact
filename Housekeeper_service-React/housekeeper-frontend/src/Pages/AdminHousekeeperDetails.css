@@ -1,0 +1,91 @@
+/* AdminHousekeeperDetails.css */
+#adminhousekeeperdetails{
+  background: url('https://images.unsplash.com/photo-1603712725038-e9334ae8f39f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  height: 90vh;
+}
+
+.admin-housekeeper-details-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.4); /* Light Blue */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  h2 {
+    color: #1a1a1a; /* Dark Gray */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #ffff;; /* Gray */
+  }
+  
+  input[type="text"],
+  select,
+  input[type="checkbox"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #b3b3b3; /* Light Gray */
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #e6e6e6; /* Light Gray */
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    color: #4d4d4d; /* Medium Gray */
+  }
+  
+  tr:hover {
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  td {
+    vertical-align: middle;
+    color: #333; /* Dark Gray */
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 600px) {
+    table {
+      overflow-x: auto;
+      display: block;
+    }
+    
+    th, td {
+      display: block;
+      width: 100%;
+    }
+  
+    tbody {
+      display: block;
+    }
+  
+    tr {
+      margin-bottom: 10px;
+    }
+  }
+  

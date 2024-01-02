@@ -1,0 +1,48 @@
+/* About.css */
+ #body {
+    margin: 0;
+    padding: 0;
+  
+    background: linear-gradient(45deg, #ff0000, #ff8000, #ffff00, #80ff00, #00ff80, #0080ff, #0000ff, #8000ff);
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .about-container {
+  
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 1200px;
+    margin:  auto;
+  }
+  
+  .about-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .about-description,
+  .about-mission,
+  .about-contact {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .about-contact {
+    font-size: 1.2em;
+    margin-top: 20px;
+  }
+  
+  .contact-email {
+    font-weight: bold;
+    color: #f39c12;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+  }
+  
+  .contact-email:hover {
+    color: #e74c3c;
+  }
+  

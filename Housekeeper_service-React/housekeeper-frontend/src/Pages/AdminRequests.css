@@ -1,0 +1,66 @@
+/* AdminRequests.css */
+
+#adminrequests{
+background: url('https://images.pexels.com/photos/4107121/pexels-photo-4107121.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+height: 90vh;
+}
+
+.admin-requests-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .admin-requests-container h2 {
+    color: #333;
+  }
+  
+  .sort-label {
+    margin-right: 10px;
+  }
+  
+  .sort-select {
+    padding: 8px;
+    font-size: 14px;
+  }
+  
+  .success-message {
+    color: #008000;
+    margin: 10px 0;
+  }
+  
+  .requests-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .close-button {
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .close-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  

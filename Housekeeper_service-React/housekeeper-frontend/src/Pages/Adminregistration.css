@@ -1,0 +1,73 @@
+/* Add your existing styles here */
+
+.Adminregistration {
+    
+      background:url(https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) ;
+      height: 120vh;
+  }
+  
+  /* .Admincontainer {
+    width: 400px; /* Adjust the width to your preference */
+    /* border: solid 1px black;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.4); */
+ 
+  /* } */ */
+  
+  /* .Admincard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  } */
+  
+  .formgroup2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .jsregister {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .button1 {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .button1:hover {
+    background-color: #45a049;
+  }
+  
+  .lasttext1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .text2 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  /* Add more styles as needed */
+  
+  

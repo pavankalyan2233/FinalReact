@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#adminassign{
+  background: url('https://images.pexels.com/photos/4815350/pexels-photo-4815350.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
+
+.assign-housekeeper-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1); /* Added a semi-transparent white background color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.assign-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.assign-form label {
+  margin-bottom: 12px;
+}
+
+.assign-form input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.assign-form button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.assign-form button:hover {
+  background-color: #45a049;
+}
+
+.assignments-list {
+  margin-top: 20px;
+}
+
+.assignments-list table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+
+.assignments-list th,
+.assignments-list td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.assignments-list th {
+  background-color: #f2f2f2;
+}
+
+.assignments-list tbody tr:hover {
+  background-color: #f5f5f5;
+}
+
+.pagination {
+  list-style: none;
+  display: flex;
+  margin-top: 20px;
+  padding: 0;
+}
+
+.pagination li {
+  margin-right: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.pagination li:hover {
+  background-color: #f2f2f2;
+}

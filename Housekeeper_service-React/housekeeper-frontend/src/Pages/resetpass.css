@@ -1,0 +1,206 @@
+/* .jstext{
+  margin-top: -10px;
+
+}
+
+
+.contain{
+  margin-top: 450px;
+  margin-bottom: 200px;
+display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+.Jobform{
+  width: 500px;
+  padding: 10px;
+  border-radius: 8px;
+}
+.jobseeker{
+  width: 100%;
+}
+
+
+.jobsformgroup{
+  background-color: #edebff;
+  width: 500px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.formgroup4 {
+  margin-top: 10%;
+  margin-left: 30%;
+  background-color: #edebff;
+  width: 500px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.formgroup {
+  margin-bottom: 15px;
+}
+
+.jsform {
+  margin-top: 300px;
+  margin-bottom: 15px;
+}
+.jsform {
+  background-color: #edebff;
+  width: 500px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.resetbutton{
+  margin-right: 350px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.jsregister {
+  width: 90%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  width: 30%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #0073e6;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.ok{
+  width: 15%;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 41.5%;
+  background-color: #0073e6;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.error {
+  color: #ff0000;
+  font-size: 15px;
+  margin-top: 5px;
+} */
+/* Add this styling to your CSS file */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: whitesmoke;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 10px 0;
+}
+
+.navbar-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.navbar-menu {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-item {
+  margin-right: 20px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.dropdown-item {
+  padding: 10px;
+}
+
+.formgroup4 {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+.jsregister {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+
+.ok {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}

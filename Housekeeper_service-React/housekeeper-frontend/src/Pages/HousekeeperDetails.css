@@ -1,0 +1,52 @@
+/* HousekeeperDetails.css */
+
+
+.housekeeperbox{
+  background:url('https://plus.unsplash.com/premium_photo-1682094823447-d66b618ea29d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  height: 200vh;
+  object-fit: cover;
+  background-position: center top;
+}
+
+
+.housekeeper-details-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.filter-search-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.housekeepers-list-container {
+  border: 1px solid #ad6262;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 40px;
+  border-radius: 10px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.buttons-container {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.housekeepers-list {
+  list-style: none;
+  padding: 0;
+
+
+}
+
+.housekeeper-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  background: white url('') center/cover; /* Replace 'your-background-image.jpg' with the path to your background image */
+}
